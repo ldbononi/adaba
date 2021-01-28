@@ -1,0 +1,11 @@
+# Registry used to register and provide the
+# IRemoteCacheService service.
+registry.host=192.168.1.7
+registry.port=1101
+# call back port to local caches.
+remote.cache.service.port=1102
+# rmi socket factory timeout
+remote.cache.rmiSocketFactoryTimeoutMillis=5000
+# cluster setting
+remote.cluster.LocalClusterConsistency=true
+remote.cluster.AllowClusterGet=true
